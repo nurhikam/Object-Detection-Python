@@ -81,7 +81,7 @@ while True:
         if limits[0] < cx < limits[2] and limits[1] - 30 < cy < limits[1] + 40:
             if totalCount.count(id) == 0:
                 totalCount.append(id)
-                cv2.line(img, (limits[0], limits[1]), (limits[2], limits[3]), (255, 255, 0), 2 )
+                cv2.line(img, (limits[0], limits[1]), (limits[2], limits[3]), (255, 255, 0), 2)
 
     cvzone.putTextRect(img, f' Counted Cars: {len(totalCount)}', (50, 670),
                        scale=2, thickness=2, offset=10,
