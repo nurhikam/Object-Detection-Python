@@ -11,7 +11,7 @@ cap.set(4, 720)
 # Using Videos
 # cap = cv2.VideoCapture('../Videos/cars.mp4')
 
-model = YOLO("../Yolo-Weights/yolov8n.pt")
+model = YOLO("../Yolo-Weights/yolov8l.pt")
 
 className = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck",
              "boat", "traffic light", "fire hydrant", "stop sign", "parking meter", "bench",
@@ -54,3 +54,5 @@ while True:
 
     cv2.imshow("Image", img)
     cv2.waitKey(1)
+
+    #pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
