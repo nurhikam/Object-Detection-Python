@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Object Detection Python</h1> 
+  <h1>Object Detection using Python</h1> 
 </div>
 
 ## Setup
