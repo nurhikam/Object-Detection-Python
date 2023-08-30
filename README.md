@@ -29,3 +29,7 @@ If you want to boost the perform when running this project using your GPU, you c
   - Or you can simply run this command at Command Prompt on your Terminal `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`. But, make sure that you run the prompt at Command Prompt not in Local.
 - Congrats, now you can run this project using your GPU with less lag.
 
+## References
+- https://github.com/abewley/sort/blob/master/sort.py
+- https://github.com/ultralytics/ultralytics
+- https://pypi.org/project/opencv-python/
